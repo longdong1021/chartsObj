@@ -1,5 +1,4 @@
 // pages/index/index.js
-let _page, _this;
 Page({
 
   /**
@@ -69,12 +68,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-
-  bindSolarChange(e) {
-    _page = this;
-    _page.setData({
-      datepicker: e.detail.value
-    })
   },
 })
