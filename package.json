@@ -1,0 +1,28 @@
+{
+  "name": "chartsobj",
+  "version": "1.0.0",
+  "description": "a xiaochengxu obj",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/longdong1021/chartsObj.git"
+  },
+  "keywords": [
+    "a",
+    "new",
+    "chat",
+    "obj"
+  ],
+  "author": "longdong1021",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/longdong1021/chartsObj/issues"
+  },
+  "homepage": "https://github.com/longdong1021/chartsObj#readme",
+  "dependencies": {
+    "miniprogram-datepicker": "^0.3.0"
+  }
+}

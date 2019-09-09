@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "datepicker": "../../node_modules/miniprogram-datepicker/index"
+  }
+}

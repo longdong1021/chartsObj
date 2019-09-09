@@ -1,0 +1,24 @@
+.container{
+  
+}
+.inmenu{
+  width: 100%;
+}
+.inmenu-box{
+    display: flex;
+    flex-wrap: wrap;
+    height: 120rpx;
+}
+.inmenu-item{
+  flex: 1;
+  box-sizing:border-box;
+  text-align: center;
+  border:1rpx solid #f60;
+  align-self:stretch;
+  display: flex;
+  flex-flow:column;
+}
+.inmenu-item text{
+  color: #333;
+  font-size: 24rpx;
+}

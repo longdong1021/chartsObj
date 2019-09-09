@@ -1,0 +1,22 @@
+<!--pages/index/index.wxml-->
+<view class="container">
+    <view class="">
+        <text>我是标题</text>
+    </view>
+    <view class="inmenu">
+      <view class='title'>菜单按钮（JS数组循环）</view>
+      <view class="inmenu-box">
+        <view class="inmenu-item" wx:for="{{inmenu}}" wx:key="inmenu">
+          <text>{{item.icon}}</text>
+          <text>{{item.text}}</text>
+        </view>
+      </view>
+    </view>
+    <text>pages/index/index.wxml</text>
+    <datepicker value="{{solar}}" bindchange="bindSolarChange">
+      <button type="default">公历{{datepicker}}</button>
+    </datepicker>
+    <datepicker value="{{lunar}}" chinese="{{true}}" bindchange="bindLunarChange" picker-class="weui-btn">
+      <button type="default">农历</button>
+    </datepicker>
+</view>

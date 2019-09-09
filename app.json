@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/news/index",
+    "pages/lists/index",
+    "pages/me/index",
+    "pages/logs/logs"
+  ],
+  
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#ccc",
+    "navigationBarTitleText": "瓦力小站",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#06f",
+    "borderStyle": "black",
+    "backgroundColor": "#f1f1f1",
+    "list": [
+      {
+        "iconPath":"/assets/images/tabBar/icon_home_01.png",
+        "selectedIconPath":"/assets/images/tabBar/icon_home_02.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "iconPath": "/assets/images/tabBar/icon_sort_01.png",
+        "selectedIconPath": "/assets/images/tabBar/icon_sort_02.png",
+        "pagePath": "pages/lists/index",
+        "text": "分类"
+      },
+      {
+        "iconPath": "/assets/images/tabBar/icon_message_01.png",
+        "selectedIconPath": "/assets/images/tabBar/icon_message_02.png",
+        "pagePath":"pages/news/index",
+        "text":"消息",
+         "badge":"New"
+      },
+      {
+        "iconPath": "/assets/images/tabBar/icon_me_01.png",
+        "selectedIconPath": "/assets/images/tabBar/icon_me_02.png",
+        "pagePath": "pages/me/index",
+        "text": "我的"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+  
+}
